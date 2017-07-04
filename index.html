@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+    <h1>To-do List <span id="features">Features &nbsp;<i class="fa fa-info-circle" aria-hidden="true"></i></span></h1>
+    <input type="text" id="newTodo" placeholder="Add New Todo">
+    <span id="addTodo">
+        <i class="fa fa-plus" aria-hidden="true"></i>
+    </span>
+    <span id="clearTodos">
+        <i class="fa fa-trash" aria-hidden="true"></i>
+    </span>
+    <div id="form">
+        <ul id="todoList">
+        </ul>
+    </div>
+</div>
+
+<!-- Additonal -->
+
+<div id="feature-block" class="hid">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 center">
+                <span class="teal-text text-darken-2">&nbsp;Features </span>
+            </div>
+            <div class="col s2 offset-s5">
+                <hr><br>
+            </div>
+            <div class="col s9 offset-s3">
+                <ol class="red-text text-darken-1 text">
+                    <li><i class="fa fa-check" aria-hidden="true"></i> &nbsp;&nbsp;Pressing Enter in input area directly adds item to list</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> &nbsp;&nbsp;up and down icons for each todo</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> &nbsp;&nbsp;animated delete button for each todo</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> &nbsp;&nbsp;option to highlight a todo as done by checkbox</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> &nbsp;&nbsp;bin icon to remove done todos</li>
+                </ol>
+            </div>
+            <div class="col s12 center">
+                <br>
+                <p class="teal-text text-darken-2"><i class="fa fa-code" aria-hidden="true"></i>&nbsp;&nbsp;
+                    Coded  by Anshul Kumar Singh &nbsp;&nbsp;<i class="fa fa-laptop" aria-hidden="true"></i></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
