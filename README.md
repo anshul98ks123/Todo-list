@@ -1,6 +1,8 @@
 # Todo-list-
 A simple todo List App made using vanilla javascript.
 
+It uses local storage for storing data.
+
 I have used materialize css and fontawesome icons.
 
 Link -> http://todolistaks.bitballoon.com
