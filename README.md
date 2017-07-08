@@ -1,5 +1,6 @@
 # Todo-list-
 A simple todo List App made using vanilla javascript.
+
 I have used materialize css and fontawesome icons.
 
 ## Features
